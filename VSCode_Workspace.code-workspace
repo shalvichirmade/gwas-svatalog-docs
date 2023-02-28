@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../../../Desktop/gwas-svatalog-docs/build"
-		},
-		{
-			"path": "../docs"
 		}
 	],
 	"settings": {
