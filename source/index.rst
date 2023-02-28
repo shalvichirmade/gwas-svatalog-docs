@@ -9,7 +9,6 @@ Welcome to GWAS SVatalog's documentation!
 **GWAS SVatalog** is a web tool that allows the user to visualize the colocalization of structural variants (SVs) and single nucleotide polymorphisms(SNPs).
 
 There are two main ways the visualization can be displayed:
-
 1.    Selection of phenotype:
 
     *    The plot will be against the p-value found in the GWAS Catalog.
