@@ -10,7 +10,7 @@ Welcome to GWAS SVatalog's documentation!
 
 There are two main ways the visualization can be displayed:
 
-#. 1. Selection of phenotype:
+1. Selection of phenotype
 
    * The plot will be against the p-value found in the GWAS Catalog.
    * The plot will display all SNPs in the GWAS Catalog and highlight the SNPs associated with the phenotype chosen.
@@ -18,7 +18,7 @@ There are two main ways the visualization can be displayed:
    * The size of the highted SNPs will be based on the D' colocalization value with the SV selected.
 
 
-#. 2. Without the selection of phenotype:
+2. Without the selection of phenotype:
 
 * The plot will be against the R\ :sup:`2` colocalization value with the SV selected.
 
