@@ -7,7 +7,7 @@
 			"path": "../../../Desktop/gwas-svatalog-docs/build"
 		},
 		{
-			"path": "../../../Desktop/gwas-svatalog-docs/docs"
+			"path": "../docs"
 		}
 	],
 	"settings": {
