@@ -20,10 +20,10 @@ There are two main ways the visualization can be displayed:
 
 2. Without the selection of phenotype:
 
-    * The plot will be against the R\ :sup:`2` colocalization value with the SV selected.
-    * The plot will display all SNPs available in the colocalization dataset.
-    * The SNPs will be sized based on the D' colocalization value.
-    * The SNPs in blue are also found in GWAS catalog while the SNPs in black are not.
+    *    The plot will be against the R\ :sup:`2` colocalization value with the SV selected.
+    *    The plot will display all SNPs available in the colocalization dataset.
+    *    The SNPs will be sized based on the D' colocalization value.
+    *    The SNPs in blue are also found in GWAS catalog while the SNPs in black are not.
 
 
 .. note::
