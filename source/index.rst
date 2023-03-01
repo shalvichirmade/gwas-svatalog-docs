@@ -6,7 +6,7 @@
 .. figure:: gwas-svatalog-name.svg
    :target: index.html
    :width: 500px
-   :height: 450px
+   :height: 350px
    :alt: logo
 
 
