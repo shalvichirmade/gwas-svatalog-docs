@@ -3,6 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. figure:: gwas-svatalog-name.SVatalog
+   :target: index.html
+   :width: 500px
+   :height: 450px
+   :alt: logo
+
+
+
+
 Welcome to GWAS SVatalog's documentation!
 =========================================
 
