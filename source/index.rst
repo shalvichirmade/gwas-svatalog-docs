@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. figure:: gwas-svatalog-name.SVatalog
+.. figure:: gwas-svatalog-name.svg
    :target: index.html
    :width: 500px
    :height: 450px
