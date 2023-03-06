@@ -77,7 +77,7 @@ There are two main ways the visualization can be displayed:
 
    * The plot will be against the R\ :sup:`2` linkage value with the SV selected.
    * The plot will display all SNPs available in the linkage dataset.
-   * The SNPs will be sized based on the D' colocalization value.
+   * The SNPs will be sized based on the D' linkage value.
    * The SNPs in blue are also found in GWAS catalog while the SNPs in black are not.
 
 ..
