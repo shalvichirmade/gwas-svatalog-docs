@@ -54,10 +54,10 @@ Based on the SV selected above, this table will display the corresponding annota
    Add image of annotation table section here
 
 
-SV-SNP Association Plot
+SV-SNP Colocalization Plot
 -------------------------------
 
-This plot shows the association between SNPs and a single SV. It will autopopulate when a SV is chosen from the SV table. 
+This plot shows the colocalization between SNPs and a single SV. It will autopopulate when a SV is chosen from the SV table. 
 
 There are two main ways the visualization can be displayed:
 
