@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. figure:: gwas-svatalog-name.png
+.. figure:: gwas-svatalog-name.svg
    :target: index.html
-   :width: 550px
+   :width: 400px
    :alt: logo
 
 
