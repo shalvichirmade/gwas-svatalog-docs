@@ -14,7 +14,7 @@
 Welcome to GWAS SVatalog's documentation!
 =========================================
 
-**GWAS SVatalog** is a web tool that allows the user to visualize the colocalization of structural variants (SVs) and single nucleotide polymorphisms (SNPs).
+**GWAS SVatalog** is a web tool that allows the user to visualize structural variants (SVs) and single nucleotide polymorphisms (SNPs) in high linkage disequilibrium (LD). The software is availible here (insert link to tool).
 
 .. note::
 
@@ -24,11 +24,14 @@ Welcome to GWAS SVatalog's documentation!
 Filters
 -------
 
-Based on the filters selected, the SV table will autopopulate to show the SVs in the chosen region.
+The filters are used to subset the SVs based on the chosen criteria. There are three ways to accomplish this:
 
-* **Chromosome**: used to select the chromosome of interest.
-* **Gene**: used to select the gene of interest.
-* **Phenotype**: used to select phenotype of interest depicted in the GWAS Catalog database.
+* **Gene**: select chromosome and/or gene of interest.
+  * The SVs displayed are within 100kb of the start and end of the gene chosen.
+* **Genomic Region**: select chromosome and/or base pair range.
+  * The SVs displayed are within the region chosen.
+* **Phenotype**: select phenotype of interest depicted in the GWAS Catalog database.
+  * If the SNP associated with this phenotype has linkage disequilibrium inforamtion with an SV, these SVs will be displayed. If a phenotype is chosen along with the gene or genomic region filter, both criteria will be used to subset the SV list.
 
 ..
    Add image of filter section here
