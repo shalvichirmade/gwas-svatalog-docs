@@ -45,9 +45,9 @@ The filters are used to subset the SVs based on the chosen criteria. There are t
 SV Table
 --------
 
-The default table contains all the SVs identified in *Homo sapiens*. The table will automatically update based on the filters selected, as explained in `Filters`_.
+The default table contains all the SVs identified in *Homo sapiens*, as described in (insert citation to paper). The table will automatically update based on the filters selected, as explained in `Filters`_.
 
-The user will need to select the SV of interest to generate the colocalization plot.
+The user will need to select an SV of interest to generate the interactive plot showcasing the SNPs in LD.
 
 ..
    Add image of SV table section here
@@ -56,7 +56,7 @@ The user will need to select the SV of interest to generate the colocalization p
 Annotation Table
 ----------------
 
-Based on the SV selected above, this table will display the corresponding annotations describing this SV region. :doc:`annotationfile` explains the meaning of each column in detail.
+Based on the SV selected in `SV Table`_, this table will display the corresponding annotations for the SV region. :doc:`annotationfile` explains the meaning of each column in detail.
 
 ..
    Add image of annotation table section here
