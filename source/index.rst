@@ -45,7 +45,7 @@ The filters are used to subset the SVs based on the chosen criteria. There are t
 SV Table
 --------
 
-The default table contains all the SVs identified in *Homo sapiens*. The table will automatically update based on the filters selected to show the SVs in the selected regions.
+The default table contains all the SVs identified in *Homo sapiens*. The table will automatically update based on the filters selected, as explained in `Filters`_.
 
 The user will need to select the SV of interest to generate the colocalization plot.
 
