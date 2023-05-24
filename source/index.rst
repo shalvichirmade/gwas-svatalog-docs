@@ -27,10 +27,15 @@ Filters
 The filters are used to subset the SVs based on the chosen criteria. There are three ways to accomplish this:
 
 * **Gene**: select chromosome and/or gene of interest.
+
   * The SVs displayed are within 100kb of the start and end of the gene chosen.
+
 * **Genomic Region**: select chromosome and/or base pair range.
+
   * The SVs displayed are within the region chosen.
+
 * **Phenotype**: select phenotype of interest depicted in the GWAS Catalog database.
+
   * If the SNP associated with this phenotype has linkage disequilibrium inforamtion with an SV, these SVs will be displayed. If a phenotype is chosen along with the gene or genomic region filter, both criteria will be used to subset the SV list.
 
 ..
