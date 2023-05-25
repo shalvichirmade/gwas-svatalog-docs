@@ -93,11 +93,11 @@ There are two main ways the visualization can be displayed:
 
 
 .. toctree::
-
-   index
-   annotation
    :maxdepth: 2
    :caption: Contents:
+   index
+   annotation
+
 
 
 
