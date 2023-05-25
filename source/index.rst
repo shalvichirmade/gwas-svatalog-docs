@@ -92,7 +92,9 @@ There are two main ways the visualization can be displayed:
    Add image of plot type here
 
 
-
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents:
 
 
 
