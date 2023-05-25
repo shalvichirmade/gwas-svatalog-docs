@@ -1,3 +1,3 @@
 Annotation
 ===========
-.. figure:: /static/SV_Annotation_Table_Documentation.pdf
+.. figure:: SV_Annotation_Table_Documentation.pdf
