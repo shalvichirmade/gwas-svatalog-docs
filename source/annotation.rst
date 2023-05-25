@@ -1,4 +1,4 @@
-Description of Each Column
+SV Annotation Table Columns
 ---------------------------
 
 This document describes each column in the SV Annotation Table.
