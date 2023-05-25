@@ -1,8 +1,7 @@
-SV Annotation Table 
-====================
-
 Description of Each Column
 ---------------------------
+
+This document describes each column in the SV Annotation Table.
 
 **SV_Name**: name of the SV  
 
