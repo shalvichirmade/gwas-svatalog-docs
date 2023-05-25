@@ -53,13 +53,18 @@ The user will need to select an SV of interest to generate the interactive plot 
    Add image of SV table section here
 
 
-Annotation Table
+SV Annotation Table
 ----------------
 
 Based on the SV selected in `SV Table`_, this table will display the corresponding annotations for the SV region. :doc:`This document <annotation>` explains the meaning of each column in detail.
 
 ..
    Add image of annotation table section here
+
+
+.. toctree::
+   
+   annotation
 
 
 SV-SNP Colocalization Plot
@@ -91,11 +96,6 @@ There are two main ways the visualization can be displayed:
    Add image of plot type here
 
 
-
-.. toctree::
-   
-   index
-   annotation
 
 
 
