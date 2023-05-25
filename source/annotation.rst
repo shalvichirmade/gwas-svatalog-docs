@@ -1,1 +1,1 @@
-.. image:: /static/SV_Annotation_Table_Documentation.pdf
+.. figure:: /static/SV_Annotation_Table_Documentation.pdf
