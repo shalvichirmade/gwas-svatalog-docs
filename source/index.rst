@@ -62,10 +62,6 @@ Based on the SV selected in `SV Table`_, this table will display the correspondi
    Add image of annotation table section here
 
 
-.. toctree::
-   
-   annotation
-
 
 SV-SNP Colocalization Plot
 -------------------------------
