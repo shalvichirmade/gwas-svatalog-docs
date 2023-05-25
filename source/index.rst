@@ -93,15 +93,17 @@ There are two main ways the visualization can be displayed:
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+
+   annotation
+..    :maxdepth: 2
+..    :caption: Contents:
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
 
