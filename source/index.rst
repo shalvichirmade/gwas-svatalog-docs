@@ -54,7 +54,7 @@ The user will need to select an SV of interest to generate the interactive plot 
 
 
 SV Annotation Table
-----------------
+--------------------
 
 Based on the SV selected in `SV Table`_, this table will display the corresponding annotations for the SV region. :doc:`This document <annotation>` explains the meaning of each column in detail.
 
@@ -63,19 +63,18 @@ Based on the SV selected in `SV Table`_, this table will display the correspondi
 
 
 
-SV-SNP Colocalization Plot
--------------------------------
+Interactive LD Plot
+--------------------
 
-This plot shows the colocalization between SNPs and a single SV. It will autopopulate when a SV is chosen from the SV table. 
+This plot shows the chosen SV and its SNPs in LD. It will autopopulate when a SV is chosen from `SV Table`_. 
 
 There are two main ways the visualization can be displayed:
 
 1. Selection of phenotype:
 
    * The plot will be against the p-value found in the GWAS Catalog.
-   * The plot will display all SNPs in the GWAS Catalog and highlight the SNPs in linkage with the SV and associated with the phenotype chosen.
-   * The SNPs will be highlighted based on the R\ :sup:`2` linkage value with the SV selected.
-   * The size of the highted SNPs will be based on the D' linkage value with the SV selected.
+   * The plot will display all the associated SNPs in the GWAS Catalog for that phenotype and highlight the SNPs in linkage with the SV.
+   * The SNPs will be highlighted based on the D' or R\ :sup:`2` colocalization value with the SV selected. These measures can be selected by using the toggle switch.
 
 ..
    Add image of plot type here
@@ -83,13 +82,36 @@ There are two main ways the visualization can be displayed:
 
 2. Without the selection of phenotype:
 
-   * The plot will be against the R\ :sup:`2` linkage value with the SV selected.
-   * The plot will display all SNPs available in the linkage dataset.
-   * The SNPs will be sized based on the D' linkage value.
-   * The SNPs in blue are also found in GWAS catalog while the SNPs in black are not.
+   * The plot will be against the D' or R\ :sup:`2` colocalization value with the SV selected. These measures can be selected by using the toggle switch.
+   * The plot will display all SNPs available in the colocalization dataset. 
+
+
+When a SNP in the plot is clicked, the GWAS Catalog information for that SNP will be displayed in the `SNP Table`_ under the plot
 
 ..
    Add image of plot type here
+
+
+
+SNP Table
+----------
+
+This table will be populated based on the SNP selected in the plot. The information provided in this table comes from a combination of the LD data and GWAS Catalog data:
+
+  **Chromosome**: chromosome
+  **SNP Position**: base pair location on chromosome
+  **SNP Name: dbSNP**: rsID from dbSNP for the genomic location
+  **SNP Name: GWAS**: rsID from the GWAS Catalog entry
+  **Reference Allele**: reference allele from hg38
+  **Alternate Allele**: allele of SNP (each allele availible has been evaluated separately during the LD calculation)
+  **Risk Allele**: risk allele provided by GWAS Catalog
+  **Risk AF**: risk allele frequency provided by GWAS Catalog
+  **Sample AF**: allele frequnency from the samples used during calculation (insert citation of paper)
+  **gnomAD NFE AF**: alelle frequency provided by gnomAD for the Non-Finnish European population (closely resembles demographic from the samples used in *insert citation of paper*)
+  **Phenotype**: disease/trait provided by GWAS Catalog
+  **P-Value**: statistic provided by GWAS Catalog
+  **Study**: name of the study from which this entry is derived
+  **Pubmed Link**: PubMed link to the research paper for this entry
 
 
 .. toctree::
