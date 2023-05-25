@@ -56,7 +56,7 @@ The user will need to select an SV of interest to generate the interactive plot 
 Annotation Table
 ----------------
 
-Based on the SV selected in `SV Table`_, this table will display the corresponding annotations for the SV region. :doc:`This document <SV_Annotation_Table_Documentation>` explains the meaning of each column in detail.
+Based on the SV selected in `SV Table`_, this table will display the corresponding annotations for the SV region. :doc:`This document </guides/SV_Annotation_Table_Documentation>` explains the meaning of each column in detail.
 
 ..
    Add image of annotation table section here
