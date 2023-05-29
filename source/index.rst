@@ -106,7 +106,7 @@ This table will be populated based on the SNP selected in the plot. The informat
   * **Alternate Allele**: allele of SNP (each allele availible has been evaluated separately during the LD calculation)
   * **Risk Allele**: risk allele provided by GWAS Catalog
   * **Risk AF**: risk allele frequency provided by GWAS Catalog
-  * **Sample AF**: allele frequnency from the samples used during calculation (insert citation of paper)
+  * **Sample AF**: allele frequnency from the samples used during calculation (*insert citation of paper*)
   * **gnomAD NFE AF**: alelle frequency provided by gnomAD for the Non-Finnish European population (closely resembles demographic from the samples used in *insert citation of paper*)
   * **Phenotype**: disease/trait provided by GWAS Catalog
   * **P-Value**: statistic provided by GWAS Catalog
