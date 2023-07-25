@@ -114,6 +114,17 @@ This table will be populated based on the SNP selected in the plot. The informat
   * **Pubmed Link**: PubMed link to the research paper for this entry
 
 
+Data on the SNPs visible in the interactive plot can be downloaded as a .csv file when clicking the "Export SNP Data" button to the right of the visualziation. In addition to the columns noted above, supplemnetary information on the SV is also included:
+
+  * **SV Name**: name of the structural variant
+  * **SV Start**: start base pair location
+  * **SV End**: end base pair location
+  * **SV Type**: type of indel (insertion, deletion, duplication or inversion)
+  * **SV AF**: allele frequency of the SV from the samples used during calculation (*insert citation of paper*)
+  * **R\ :sup:`2`**: LD statistic - square of the correlation coefficient between the SV and SNP
+  * **D'**: LD statistic - measure of predictability of the SV and SNP based on one another
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents:
