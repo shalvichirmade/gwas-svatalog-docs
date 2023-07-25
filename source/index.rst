@@ -114,7 +114,7 @@ This table will be populated based on the SNP selected in the plot. The informat
   * **Pubmed Link**: PubMed link to the research paper for this entry
 
 
-Data on the SNPs visible in the interactive plot can be downloaded as a .csv file when clicking the "Export SNP Data" button to the right of the visualziation. In addition to the columns noted above, supplemnetary information on the SV is also included:
+Data on all visible SNPs in the interactive plot can be downloaded as a .csv file when clicking the "Export SNP Data" button to the right of the visualziation. In addition to the columns noted above, supplementary information on the SV is also included:
 
   * **SV Name**: name of the structural variant
   * **SV Start**: start base pair location
