@@ -28,6 +28,9 @@ Welcome to GWAS SVatalog's documentation!
 
 **GWAS SVatalog** is a web tool that allows the user to visualize structural variants (SVs) and single nucleotide polymorphisms (SNPs) in high linkage disequilibrium (LD). The software is availible here (insert link to tool).
 
+.. disclaimer::
+   Does this work?
+
 .. note::
 
    This project is under active development.
