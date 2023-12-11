@@ -26,11 +26,11 @@
 Welcome to GWAS SVatalog's documentation!
 =========================================
 
-**GWAS SVatalog** is a web tool that allows the user to visualize structural variants (SVs) and single nucleotide polymorphisms (SNPs) in high linkage disequilibrium (LD). The software is availible here (insert link to tool).
+**GWAS SVatalog** is a web tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs) by allowing the user to visualize linkage disequilibrium (LD) between SVs and  GWAS-associated SNPs. The software is availible [here](https://svatalog.research.sickkids.ca/).
 
 .. admonition:: Disclaimer
 
-   Database constructed from predominantly European population of 101 Cystic Fibrosis (CF) individuals. The alleles affected by CF aside, the remainder of the genome is comparable to a healthy population of European descent (*link to paper*). Genomic location is referenced against GRCh38.
+   Database constructed from predominantly European population of 101 individauls with Cystic Fibrosis (CF). The alleles affected by CF aside, the remainder of the genome is comparable to a healthy population of European descent (*link to paper*). Genomic location is referenced against GRCh38.
 
 .. note::
 
