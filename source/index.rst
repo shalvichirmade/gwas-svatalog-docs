@@ -26,7 +26,12 @@
 Welcome to GWAS SVatalog's documentation!
 =========================================
 
-**GWAS SVatalog** is a web tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs) by allowing the user to visualize linkage disequilibrium (LD) between SVs and  GWAS-associated SNPs. The software is availible [here](https://svatalog.research.sickkids.ca/).
+**GWAS SVatalog** is a web tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs) by allowing the user to visualize linkage disequilibrium (LD) between SVs and  GWAS-associated SNPs. The software is availible |location_link|.
+
+.. |location_link| raw:: html
+
+   <a href="https://svatalog.research.sickkids.ca" target="_blank">here</a>
+
 
 .. admonition:: Disclaimer
 
