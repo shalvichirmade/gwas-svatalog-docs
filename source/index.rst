@@ -44,7 +44,9 @@ GWAS SVatalog
 
 .. figure:: svatalog_screenshot.png
    :scale: 50%
+   :width: 450px
    :alt: screenshot of GWAS SVatalog
+   :align: center
 
    Screenshot of GWAS SVatalog.
 
