@@ -15,7 +15,7 @@ References
 
 .. |ref_link| raw:: html
 
-   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008336" target="_blank">https://doi.org/10.1371/journal.pcbi.1008336</a>
+   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008336" target="_blank" style="color:#2ba089">https://doi.org/10.1371/journal.pcbi.1008336</a>
 
 
 Contact
