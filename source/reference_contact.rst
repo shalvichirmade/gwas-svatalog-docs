@@ -4,10 +4,12 @@ References and Contact Information
 References
 ----------
 
-GWAS SVatalog
+GWAS SVatalog    
+
 *link to publication TBD*
 
-LocusFocus
+LocusFocus    
+
 |ref_link|
 
 .. |ref_link| raw:: html
@@ -18,20 +20,20 @@ LocusFocus
 Contact
 -------
 
-**GWAS Svatalog** 
-Shalvi Chirmade
-|email_link|
+**GWAS Svatalog**     
+
+Shalvi Chirmade |email_link|
 
 .. |email_link| raw:: html
 
-   <a href="mailto: shalvi.chirmade@sickkids.ca" target="_blank" text="#2ba089">shalvi.chirmade@sickkids.ca</a>
+   <a href="mailto: shalvi.chirmade@sickkids.ca" target="_blank" style="color:"#2ba089">shalvi.chirmade@sickkids.ca</a>
 
-**LocusFocus** 
-Mackenzie Frew
-|email_link2|
+**LocusFocus**     
+
+Mackenzie Frew |email_link2|
 
 .. |email_link2| raw:: html
 
-   <a href="mailto: mackenzie.frew@sickkids.ca" target="_blank" text="#2ba089">mackenzie.frew@sickkids.ca</a>
+   <a href="mailto: mackenzie.frew@sickkids.ca" target="_blank" style="color:"#2ba089">mackenzie.frew@sickkids.ca</a>
 
 
