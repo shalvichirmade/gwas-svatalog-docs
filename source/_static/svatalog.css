@@ -33,6 +33,10 @@
     color: #747474
 }
 
+.reference-internal {
+    color: #747474
+}
+
 .toctree-l1:hover{
     color: var(--highlight)
 }
