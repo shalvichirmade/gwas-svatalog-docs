@@ -23,19 +23,33 @@
 
 
 
-Welcome to GWAS SVatalog's documentation!
-=========================================
+GWAS SVatalog
+==============
 
-**GWAS SVatalog** is a web-based browsing and visualization tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs). It is part of the |software_link| suite of software tools specializing in the analysis of GWAS fine-mapping. The SVatalog allows the user to visualize linkage disequilibrium (LD) between SVs and GWAS-associated SNPs. The software is availible |location_link|.
+**GWAS SVatalog** is a web-based browsing and visualization tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs). It is part of the |lf_link| suite of software tools specializing in the analysis of GWAS fine-mapping. The SVatalog allows users to visualize linkage disequilibrium (LD) between SVs and GWAS-associated SNPs found in |gwas_link|. The software is availible |svatalog_link|.
 
-.. |software_link| raw:: html
+.. |lf_link| raw:: html
 
-   <a href="https://locusfocus.research.sickkids.ca/" target="_blank">LocusFocus</a>
+   <a href="https://locusfocus.research.sickkids.ca/" target="_blank" style="color:#2ba089">LocusFocus</a>
 
 
-.. |location_link| raw:: html
+.. |svatalog_link| raw:: html
 
-   <a href="https://svatalog.research.sickkids.ca" target="_blank">here</a>
+   <a href="https://svatalog.research.sickkids.ca" target="_blank" style="color:#2ba089">here</a>
+
+
+.. |gwas_link| raw:: html
+
+   <a href="https://www.ebi.ac.uk/gwas/" target="_blank" style="color:#2ba089">GWAS Catalog</a>
+
+.. figure:: svatalog_screenshot.png
+   :scale: 50%
+   :alt: screenshot of GWAS SVatalog
+
+   Screenshot of GWAS SVatalog.
+
+
+
 
 
 .. admonition:: Disclaimer
