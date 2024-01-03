@@ -5,20 +5,23 @@ References
 ----------
 
 **GWAS SVatalog**   
+
 *link to publication TBD*
 
 **LocusFocus**    
-|ref_link|
+
+Panjwani N, Wang F, Mastromatteo S, Bao A, Wang C, et al. (2020) LocusFocus: Web-based colocalization for the annotation and functional follow-up of GWAS. PLOS Computational Biology 16(10): e1008336. |ref_link|
 
 .. |ref_link| raw:: html
 
-   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008336" target="_blank">LocusFocus: Web-based colocalization for the annotation and functional follow-up of GWAS</a>
+   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008336" target="_blank">https://doi.org/10.1371/journal.pcbi.1008336</a>
 
 
 Contact
 -------
 
 **GWAS Svatalog**     
+
 Shalvi Chirmade |email_link|
 
 .. |email_link| raw:: html
@@ -26,6 +29,7 @@ Shalvi Chirmade |email_link|
    <a href="mailto: shalvi.chirmade@sickkids.ca" target="_blank" style="color:#2ba089">shalvi.chirmade@sickkids.ca</a>
 
 **LocusFocus**     
+
 Mackenzie Frew |email_link2|
 
 .. |email_link2| raw:: html
