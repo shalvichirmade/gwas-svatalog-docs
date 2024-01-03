@@ -11,7 +11,7 @@
 
 /* Override main theme color */
 .wy-side-nav-search {
-    background-color: var(--white-like) !important;
+    background-color: var(--lighter-turquoise) !important;
 }
 
 .version {
@@ -25,9 +25,15 @@
 /* Override link color */
 .wy-menu .caption-text {
     color: var(--highlight) !important;
+    background-color: var(--white-like);
     font-weight: bold;
     font-size: large;
 }
+
+.toctree-l1 {
+    color: white
+}
+
 .wy-nav-side{
     background: var(--turquoise) !important;
 }
