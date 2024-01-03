@@ -43,8 +43,6 @@ GWAS SVatalog
    <a href="https://www.ebi.ac.uk/gwas/" target="_blank" style="color:#2ba089">GWAS Catalog</a>
 
 .. figure:: svatalog_screenshot.png
-   :scale: 50%
-   :width: 450px
    :alt: screenshot of GWAS SVatalog
    :align: center
 
