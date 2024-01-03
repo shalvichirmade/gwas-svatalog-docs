@@ -13,7 +13,7 @@
     background-color: var(--light-turquoise) !important;
 }
 
-.wy-side-nav-search .icon icon-home {
+.version {
     color: var(--highlight) !important;
 }
 
@@ -31,11 +31,11 @@
 /* Override Note/Warning color */
 .admonition-title{
     background: var(--turquoise) !important;
-    color: whitesmoke !important;
+    color: white !important;
 }
 .admonition{
     background: var(--light-turquoise) !important;
 }
 .highlight{
-    background: whitesmoke !important;
+    background: white !important;
 }
