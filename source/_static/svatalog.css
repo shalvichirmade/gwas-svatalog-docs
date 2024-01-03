@@ -1,0 +1,36 @@
+:root {
+    --highlight: lightsalmon;
+    --dark-teal: #2ba089; /* darker-green */
+    --light-blue: #e9f2f8; /* dark-green */
+    --light-turquoise: #bae3df; /* light-green */
+    --turquoise: turquoise;
+    --font-color: #384034;
+}
+
+/* Override main theme color */
+.wy-side-nav-search {
+    background-color: var(--light-blue) !important;
+}
+
+/* Override link color */
+.wy-menu .caption-text {
+    color: var(--highlight) !important;
+}
+.wy-nav-side{
+    background: var(--dark-teal) !important;
+}
+.wy-nav-content-wrap{
+    background: var(--light-blue) !important;
+}
+
+/* Override Note/Warning color */
+.admonition-title{
+    background: var(--turquoise) !important;
+    color: var(--light-turquoise) !important;
+}
+.admonition{
+    background: var(--light-turquoise) !important;
+}
+.highlight{
+    background: var(--light-turquoise) !important;
+}
