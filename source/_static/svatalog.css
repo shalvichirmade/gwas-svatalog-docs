@@ -11,7 +11,7 @@
 /* Override main theme color */
 .wy-side-nav-search {
     background-color: var(--light-turquoise) !important;
-    color: var(--lighter-turquoise)
+    color: var(--highlight)
 }
 
 
@@ -35,5 +35,5 @@
     background: var(--light-turquoise) !important;
 }
 .highlight{
-    background: var(--lighter-turquoise) !important;
+    background: whitesmoke !important;
 }
