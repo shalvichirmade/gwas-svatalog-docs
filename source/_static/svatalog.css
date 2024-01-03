@@ -5,7 +5,7 @@
     --light-turquoise: #bae3df; /* light-green */
     --lighter-turquoise: #deedec;
     --turquoise: turquoise;
-    --font-color: #384034;
+    --font-color: #2F2E2D;
     --white-like: #fcfcfc;
 }
 
@@ -24,14 +24,17 @@
 
 /* Override link color */
 .wy-menu .caption-text {
-    color: var(--highlight) !important;
-    background-color: var(--white-like);
+    color: var(--font-color) !important;
     font-weight: bold;
     font-size: large;
 }
 
-.toctree-l1 {
-    color: white
+.wy-menu-vertical {
+    color: #747474
+}
+
+.toctree-l1:hover{
+    color: var(--highlight)
 }
 
 .wy-nav-side{
