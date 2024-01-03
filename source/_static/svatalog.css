@@ -1,8 +1,8 @@
 :root {
     --highlight: lightsalmon;
-    --dark-teal: #2ba089; /* darker-green */
-    --light-blue: #e9f2f8; /* dark-green */
-    --light-turquoise: #bae3df; /* light-green */
+    --dark-teal: #2ba089; 
+    --light-blue: #e9f2f8; 
+    --light-turquoise: #bae3df; 
     --lighter-turquoise: #deedec;
     --turquoise: turquoise;
     --font-color: #2F2E2D;
@@ -11,7 +11,7 @@
 
 /* Override main theme color */
 .wy-side-nav-search {
-    background-color: var(--lighter-turquoise) !important;
+    background-color: var(--light-turquoise) !important;
 }
 
 .version {
