@@ -17,6 +17,10 @@
     color: var(--highlight) !important;
 }
 
+.icon.icon-home {
+    color: var(--highlight) !important;
+}
+
 /* Override link color */
 .wy-menu .caption-text {
     color: var(--highlight) !important;
