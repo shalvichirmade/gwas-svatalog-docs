@@ -26,7 +26,12 @@
 Welcome to GWAS SVatalog's documentation!
 =========================================
 
-**GWAS SVatalog** is a web tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs) by allowing the user to visualize linkage disequilibrium (LD) between SVs and  GWAS-associated SNPs. The software is availible |location_link|.
+**GWAS SVatalog** is a web-based browsing and visualization tool that fascilitates fine-mapping of GWAS loci with structural variations (SVs). It is part of the |software_link| suite of software tools specializing in the analysis of GWAS fine-mapping. The SVatalog allows the user to visualize linkage disequilibrium (LD) between SVs and GWAS-associated SNPs. The software is availible |location_link|.
+
+.. |software_link| raw:: html
+
+   <a href="https://locusfocus.research.sickkids.ca/" target="_blank">LocusFocus</a>
+
 
 .. |location_link| raw:: html
 
@@ -35,11 +40,8 @@ Welcome to GWAS SVatalog's documentation!
 
 .. admonition:: Disclaimer
 
-   Database constructed from predominantly European population of 101 individauls with Cystic Fibrosis (CF). The alleles affected by CF aside, the remainder of the genome is comparable to a healthy population of European descent (*link to paper*). Genomic location is referenced against GRCh38.
+   Database constructed from predominantly European population of 101 individauls with Cystic Fibrosis (CF). The alleles affected by CF aside, the remainder of the genome is comparable to a healthy population of European descent (*link to publication TBD*). Genomic location is referenced against GRCh38.
 
-.. note::
-
-   This project is under active development.
 
 
 Filters
