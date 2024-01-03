@@ -17,7 +17,7 @@
 
 .. figure:: gwas-svatalog-name.svg
    :target: index.html
-   :width: 400px
+   :width: 350px
    :alt: logo
 
 
@@ -144,7 +144,7 @@ Data on all visible SNPs in the interactive plot can be downloaded as a .csv fil
   * **SV End**: end base pair location
   * **SV Type**: type of indel (insertion, deletion, duplication or inversion)
   * **SV AF**: allele frequency of the SV from the samples used during calculation (*insert citation of paper*)
-  * **R**\ :sup:`2`: LD statistic - square of the correlation coefficient between the SV and SNP
+  * **r**\ :sup:`2`: LD statistic - square of the correlation coefficient between the SV and SNP
   * **D'**: LD statistic - measure of predictability of the SV and SNP based on one another
 
 
