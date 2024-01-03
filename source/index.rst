@@ -15,7 +15,7 @@
    :align: right
    :alt: sklogo
 
-.. figure:: gwas-svatalog-name.svg
+.. figure:: gwas-svatalog-logo.svg
    :target: index.html
    :width: 350px
    :alt: logo

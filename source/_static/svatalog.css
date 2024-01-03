@@ -6,11 +6,12 @@
     --lighter-turquoise: #deedec;
     --turquoise: turquoise;
     --font-color: #384034;
+    --white-like: #fcfcfc;
 }
 
 /* Override main theme color */
 .wy-side-nav-search {
-    background-color: var(--light-turquoise) !important;
+    background-color: var(--white-like) !important;
 }
 
 .version {
@@ -28,7 +29,7 @@
     font-size: large;
 }
 .wy-nav-side{
-    background: var(--dark-teal) !important;
+    background: var(--turquoise) !important;
 }
 .wy-nav-content-wrap{
     background: var(--light-turquoise) !important;
@@ -36,7 +37,7 @@
 
 /* Override Note/Warning color */
 .admonition-title{
-    background: var(--turquoise) !important;
+    background: var(--dark-teal) !important;
     color: white !important;
 }
 .admonition{
