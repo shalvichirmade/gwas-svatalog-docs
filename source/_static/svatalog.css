@@ -11,9 +11,11 @@
 /* Override main theme color */
 .wy-side-nav-search {
     background-color: var(--light-turquoise) !important;
-    color: var(--highlight)
 }
 
+.wy-side-nav-search .icon icon-home {
+    color: var(--highlight) !important;
+}
 
 /* Override link color */
 .wy-menu .caption-text {
@@ -29,7 +31,7 @@
 /* Override Note/Warning color */
 .admonition-title{
     background: var(--turquoise) !important;
-    color: var(--lighter-turquoise) !important;
+    color: whitesmoke !important;
 }
 .admonition{
     background: var(--light-turquoise) !important;
