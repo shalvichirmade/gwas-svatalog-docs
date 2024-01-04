@@ -1,82 +1,105 @@
 Usage and Examples
 =========================================
 
-Filters
--------
+GWAS SVatalog provides two ways to obtain the end goal of fine-mapping GWAS loci using structural vairants.
+1. Choosing a **genomic region** of interest
+2. Selecting a **phenotype** of interest with/without a specific loci
 
-The filters are used to subset the SVs based on the chosen criteria. There are three ways to accomplish this:
+.. figure:: search_sv.png
+   :alt: screenshot of filter section
+   :align: center
 
-* **Gene**: select chromosome and/or gene of interest.
-
-  * The SVs displayed are within 100kb of the start and end of the gene chosen.
-
-* **Genomic Region**: select chromosome and/or base pair range.
-
-  * The SVs displayed are within the region chosen.
-
-* **Phenotype**: select phenotype of interest depicted in the GWAS Catalog database.
-
-  * If the SNP associated with this phenotype has linkage disequilibrium inforamtion with an SV, these SVs will be displayed. If a phenotype is chosen along with the gene or genomic region filter, both criteria will be used to subset the SV list.
-
-..
-   Add image of filter section here
+   Screenshot of **filter section** availible to **subset SV list** in GWAS SVatalog.
 
 
-SV Table
---------
+1. Genomic Region
+------------------
 
-The default table contains all the SVs identified in *Homo sapiens*, as described in (insert citation to paper). The table will automatically update based on the filters selected, as explained in `Filters`_.
+This method subsets the list of structural variants solely by the genomic region of interest.    
 
-The user will need to select an SV of interest to generate the interactive plot showcasing the SNPs in LD.
+Selecting by Coordinates
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-..
-   Add image of SV table section here
+Simply selecting chromosome of interest and/or entering the desired range.
 
+.. figure:: genomic_region_filter.png
+   :alt: screenshot of genomic region filter
+   :align: center
 
-SV Annotation Table
---------------------
-
-Based on the SV selected in `SV Table`_, this table will display the corresponding annotations for the SV region. :doc:`This document <annotation>` explains the meaning of each column in detail.
-
-..
-   Add image of annotation table section here
+   Screenshot of **genomic region** filter in GWAS SVatalog.
 
 
+Selecting by Gene
+^^^^^^^^^^^^^^^^^^
 
-Interactive LD Plot
---------------------
+When selecting a gene of interest, the SVs displayed are within 100kb of the start and end of the gene chosen.
 
-This plot shows the chosen SV and its SNPs in LD. It will autopopulate when a SV is chosen from `SV Table`_. 
+.. figure:: gene_filter_example.png
+   :alt: screenshot of gene filter
+   :align: center
 
-There are two main ways the visualization can be displayed:
-
-1. Selection of phenotype:
-
-   * The plot will be against the p-value found in the GWAS Catalog.
-   * The plot will display all the associated SNPs in the GWAS Catalog for that phenotype and highlight the SNPs in linkage with the SV.
-   * The SNPs will be highlighted based on the D' or R\ :sup:`2` colocalization value with the SV selected. These measures can be selected by using the toggle switch.
-
-..
-   Add image of plot type here
+   Screenshot of **gene** filter in GWAS SVatalog.
 
 
-2. Without the selection of phenotype:
+Selecting an SV
+^^^^^^^^^^^^^^^^
 
-   * The plot will be against the D' or R\ :sup:`2` colocalization value with the SV selected. These measures can be selected by using the toggle switch.
-   * The plot will display all SNPs available in the colocalization dataset. 
+The 35,855 structural variants in this table are subsetted by the filters applied. Each row is a unique SV with MAF ≥ 0.1.    
+
+Select a SV to analyze further.
+
+.. figure:: sv_table_example.png
+   :alt: screenshot of SV information table
+   :align: center
+
+   Screenshot of the **SV information table** in GWAS SVatalog.
 
 
-When a SNP in the plot is clicked, the GWAS Catalog information for that SNP will be displayed in the `SNP Table`_ under the plot
+SV Annotations
+^^^^^^^^^^^^^^^
 
-..
-   Add image of plot type here
+Annotations generated for the selected SV are displayed here. :doc:`This document <annotation>` explains the meaning of each column in detail. 
+
+.. figure:: sv_anno_example.png
+   :alt: screenshot of SV annotation table
+   :align: center
+
+   Screenshot of the **SV annotation table** in GWAS SVatalog.
+
+
+
+Interactive Plot
+^^^^^^^^^^^^^^^^
+
+The visualization shows the selected SV and linkage disequilibrium statistics (r\ :sup:`2`/D') for SNPs within 1 Mb of its boundries. These SNPs are associated with genome-wide association studies studies as depicted in |gwas_link|.
+Each marker is a unique SNP where the hover label shows information on one entry in GWAS Catalog. When a SNP is clicked, a table below populates with additional information (see `SNP Table`_).    
+
+The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
+
+.. |gwas_link| raw:: html
+
+   <a href="https://www.ebi.ac.uk/gwas/" target="_blank" style="color:#2ba089">GWAS Catalog</a>
+
+.. figure:: plot_example1.png
+   :alt: screenshot of interactive plot with all phenotypes
+   :align: center
+
+   Screenshot of **interactive plot** in GWAS SVatalog.
 
 
 
 SNP Table
-----------
+^^^^^^^^^^
 
-This table will be populated based on the SNP selected in the plot. The information provided in this table comes from a combination of the LD data and GWAS Catalog data:
+This table is populated based on the SNP selected in the plot. The SNP information is a combination of GWAS Catalog entries and linkage disequilibrium statistics for the selected SV.
+
+.. figure:: snp_selection_example.png
+   :alt: screenshot of snp selected and populating snp table
+   :align: center
+
+   Screenshot example of **selecting a SNP** in the plot and **populating the SNP table** in GWAS SVatalog.
+
+Description of columns seen in the table:
 
   * **Chromosome**: chromosome
   * **SNP Position**: base pair location on chromosome
@@ -93,8 +116,7 @@ This table will be populated based on the SNP selected in the plot. The informat
   * **Study**: name of the study from which this entry is derived
   * **Pubmed Link**: PubMed link to the research paper for this entry
 
-
-Data on all visible SNPs in the interactive plot can be downloaded as a .csv file when clicking the "Export SNP Data" button to the right of the visualziation. In addition to the columns noted above, supplementary information on the SV is also included:
+Additional columns in the download file:
 
   * **SV Name**: name of the structural variant
   * **SV Start**: start base pair location
@@ -103,3 +125,6 @@ Data on all visible SNPs in the interactive plot can be downloaded as a .csv fil
   * **SV AF**: allele frequency of the SV from the samples used during calculation (*insert citation of paper*)
   * **r**\ :sup:`2`: LD statistic - square of the correlation coefficient between the SV and SNP
   * **D'**: LD statistic - measure of predictability of the SV and SNP based on one another
+  * **P-Value_log10**: log10 of the statistic provided by GWAS Catalog
+
+

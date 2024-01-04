@@ -62,7 +62,6 @@ GWAS SVatalog
    :maxdepth: 2
    :caption: Table of Contents:
 
-   index
    usage_examples
    reference_contact
    license
