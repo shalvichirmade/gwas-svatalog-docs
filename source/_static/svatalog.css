@@ -59,7 +59,3 @@
 .highlight{
     background: white !important;
 }
-
-.rst-content .toctree-wrapper>p.caption, h4 legend {
-  color: darkcyan;
-}
