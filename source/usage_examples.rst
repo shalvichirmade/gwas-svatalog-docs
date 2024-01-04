@@ -2,7 +2,9 @@ Usage and Examples
 =========================================
 
 GWAS SVatalog provides two ways to obtain the end goal of fine-mapping GWAS loci using structural vairants.
+
 1. Choosing a **genomic region** of interest
+
 2. Selecting a **phenotype** of interest with/without a specific loci
 
 .. figure:: search_sv.png
