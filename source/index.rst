@@ -59,7 +59,6 @@ GWAS SVatalog
 
 
 .. toctree::
-   :maxdepth: 2
    :caption: Table of Contents:
 
    usage_examples
