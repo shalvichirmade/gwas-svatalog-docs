@@ -73,10 +73,19 @@ Annotations generated for the selected SV are displayed here. :doc:`This documen
 Interactive Plot
 ^^^^^^^^^^^^^^^^
 
-The visualization shows the selected SV and linkage disequilibrium statistics (r\ :sup:`2`/D') for SNPs within 1 Mb of its boundries. These SNPs are associated with genome-wide association studies studies as depicted in |gwas_link|.
+The visualization shows the selected SV and linkage disequilibrium statistics (r\ :sup:`2`/D') for SNPs within 1 Mb of its boundries. These SNPs are significant with genome-wide association studies studies as depicted in |gwas_link|.
 Each marker is a unique SNP where the hover label shows information on one entry in GWAS Catalog. When a SNP is clicked, a table below populates with additional information (see `SNP Table`_).    
 
-The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside ech gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
+The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. 
+
+.. figure:: ld_toggle.png
+   :alt: screenshot of D' to r2 toggle for plot
+   :align: center
+
+   Screenshot of **r**\ :sup:`2` **to D'** toggle button for the interactive plot in GWAS SVatalog.
+
+
+The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
 
 .. |gwas_link| raw:: html
 
@@ -84,7 +93,7 @@ The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` 
 
 .. |mane_link| raw:: html
 
-   <a href="https://useast.ensembl.org/info/genome/genebuild/mane.html" target="_blank" style="color:#2ba089">MANEg</a>
+   <a href="https://useast.ensembl.org/info/genome/genebuild/mane.html" target="_blank" style="color:#2ba089">MANE</a>
 
 .. figure:: plot_example1.png
    :alt: screenshot of interactive plot with all phenotypes
@@ -107,16 +116,16 @@ This table is populated based on the SNP selected in the plot. The SNP informati
 
 Description of columns seen in the table:
 
-  * **Chromosome**: chromosome
-  * **SNP Position**: base pair location on chromosome
-  * **SNP Name: dbSNP**: rsID from dbSNP for the genomic location
+  * **Chromosome**: chromosome number
+  * **SNP Position**: base pair location on chromosome (hg38 coordinates)
+  * **SNP Name: dbSNP**: rsID from dbSNP
   * **SNP Name: GWAS**: rsID from the GWAS Catalog entry
   * **Reference Allele**: reference allele from hg38
-  * **Alternate Allele**: allele of SNP (each allele availible has been evaluated separately during the LD calculation)
+  * **Alternate Allele**: alternate allele
   * **Risk Allele**: risk allele provided by GWAS Catalog
   * **Risk AF**: risk allele frequency provided by GWAS Catalog
-  * **Sample AF**: allele frequnency from the samples used during calculation (*insert citation of paper*)
-  * **gnomAD NFE AF**: alelle frequency provided by gnomAD for the Non-Finnish European population (closely resembles demographic from the samples used in *insert citation of paper*)
+  * **Sample AF**: allele frequnency from 101 sample cohort (*insert citation of paper*)
+  * **gnomAD NFE AF**: alelle frequency provided by gnomAD for the Non-Finnish European population
   * **Phenotype**: disease/trait provided by GWAS Catalog
   * **P-Value**: statistic provided by GWAS Catalog
   * **Study**: name of the study from which this entry is derived
@@ -138,4 +147,80 @@ Additional columns in the download file:
 2. Phenotype
 -------------
 
-This method subsets the list of structural variants by the phenotype of interest. 
+This method subsets the list of structural variants by the phenotype of interest. These SVs have linkage disequilibrium statistics with at least one GWAS-significant SNP for the selected phenotype.    
+
+Selecting by Phenotype
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The list of phenotypes have been obtained from |gwas_link|.
+
+.. |gwas_link| raw:: html
+
+   <a href="https://www.ebi.ac.uk/gwas/" target="_blank" style="color:#2ba089">GWAS Catalog</a>
+
+.. figure:: phenotype_filter.png
+   :alt: screenshot of phenotype filter
+   :align: center
+
+   Screenshot of **phenotype** filter in GWAS SVatalog.
+
+
+Selecting by Genomic Loci
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In addition to selecting a phenotype, the user can optionally subset the list of SVs further by choosing a genomic region or gene of interest (see `Selecting by Coordinates`_ and `Selecting by Gene`_).
+
+
+Selecting an SV
+^^^^^^^^^^^^^^^^
+
+`Selecting an SV`_
+
+
+SV Annotations
+^^^^^^^^^^^^^^^
+
+`SV Annotations`_
+
+
+Interactive Plot
+^^^^^^^^^^^^^^^^
+
+The visualization shows the selected SV and p-value of GWAS-associated SNPs for the chosen phenotype. These SNPs are significant with genome-wide association studies studies as depicted in |gwas_link|. The color of each SNP marker is based on the D' statistic with the selected SV. The user has an option to switch the color to depict r\ :sup:`2` instead by clicking the toggle to the right. 
+
+.. |gwas_link| raw:: html
+
+   <a href="https://www.ebi.ac.uk/gwas/" target="_blank" style="color:#2ba089">GWAS Catalog</a>
+
+.. figure:: ld_toggle.png
+   :alt: screenshot of D' to r2 toggle for plot
+   :align: center
+
+   Screenshot of **r\ :sup:`2` to D'** toggle button for the interactive plot in GWAS SVatalog.
+
+The user also has an option to visualize p-value for SNPs from other phenotypes within 100 kb of the current region.
+The linkage disequilibrium statistics  (r\ :sup:`2`/D') between each of these SNPs and the selected SV will be displayed in the hover label.
+
+.. figure:: pheno_toggle.png
+   :alt: screenshot of show other pheno toggle for plot
+   :align: center
+
+   Screenshot of **show other phenotype** toggle button for the interactive plot in GWAS SVatalog.
+
+The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
+
+.. |mane_link| raw:: html
+
+   <a href="https://useast.ensembl.org/info/genome/genebuild/mane.html" target="_blank" style="color:#2ba089">MANE</a>
+
+.. figure:: plot_example_pheno.png
+   :alt: screenshot of interactive plot after selecting phenotype
+   :align: center
+
+   Screenshot of **interactive plot** after selecting a specific phenotype in GWAS SVatalog.
+
+
+SNP Table
+^^^^^^^^^^
+
+`SNP Table`_
