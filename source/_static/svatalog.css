@@ -1,6 +1,7 @@
 :root {
     --highlight: lightsalmon;
     --dark-teal: #2ba089; 
+    --grey-dark-teal: #608582;
     --light-blue: #e9f2f8; 
     --light-turquoise: #bae3df; 
     --lighter-turquoise: #deedec;
@@ -24,17 +25,17 @@
 
 /* Override link color */
 .wy-menu .caption-text {
-    color: var(--font-color) !important;
+    color: var(--white-like) !important;
     font-weight: bold;
     font-size: large;
 }
 
 .wy-menu-vertical a {
-    color: #747474
+    color: var(--white-like)
 }
 
 .reference-internal {
-    color: #747474
+    color: var(--white-like)
 }
 
 .toctree-l1:hover{
@@ -42,7 +43,7 @@
 }
 
 .wy-nav-side{
-    background: var(--turquoise) !important;
+    background: var(--grey-dark-teal) !important;
 }
 .wy-nav-content-wrap{
     background: var(--light-turquoise) !important;
