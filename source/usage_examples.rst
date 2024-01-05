@@ -43,6 +43,8 @@ When selecting a gene of interest, the SVs displayed are within 100kb of the sta
    Screenshot of **gene** filter in GWAS SVatalog.
 
 
+.. _sv selection:
+
 Selecting an SV
 ^^^^^^^^^^^^^^^^
 
@@ -57,6 +59,8 @@ Select a SV to analyze further.
    Screenshot of the **SV information table** in GWAS SVatalog.
 
 
+.. _sv anno:
+
 SV Annotations
 ^^^^^^^^^^^^^^^
 
@@ -69,11 +73,13 @@ Annotations generated for the selected SV are displayed here. :doc:`This documen
    Screenshot of the **SV annotation table** in GWAS SVatalog.
 
 
+.. _plot no pheno:
+
 Interactive Plot
 ^^^^^^^^^^^^^^^^
 
 The visualization shows the selected SV and linkage disequilibrium statistics (r\ :sup:`2`/D') for SNPs within 1 Mb of its boundries. These SNPs are significant with genome-wide association studies studies as depicted in |gwas_link|.
-Each marker is a unique SNP where the hover label shows information on one entry in GWAS Catalog. When a SNP is clicked, a table below populates with additional information (see :ref:`SNP Table`).    
+Each marker is a unique SNP where the hover label shows information on one entry in GWAS Catalog. When a SNP is clicked, a table below populates with additional information (see :ref:`table snp`).    
 
 The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. 
 
@@ -84,7 +90,7 @@ The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` 
    Screenshot of **r**\ :sup:`2` **to D'** toggle button for the interactive plot in GWAS SVatalog.
 
 
-The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
+The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See :ref:`table snp` for column descriptions.
 
 .. |gwas_link| raw:: html
 
@@ -101,6 +107,8 @@ The representative transcript for each gene obtained from |mane_link| are shown 
    Screenshot of **interactive plot** in GWAS SVatalog.
 
 
+
+.. _table snp:
 
 SNP Table
 ^^^^^^^^^^
@@ -170,21 +178,18 @@ Selecting by Genomic Loci
 
 In addition to selecting a phenotype, the user can optionally subset the list of SVs further by choosing a genomic region or gene of interest (see `Selecting by Coordinates`_ and `Selecting by Gene`_).
 
-.. _selectingsv2:
 
 Selecting an SV
 ^^^^^^^^^^^^^^^^
 
-:ref:`Selecting an SV`
+:ref:`sv selection`
 
-.. _svanno2:
 
 SV Annotations
 ^^^^^^^^^^^^^^^
 
-:ref:`SV Annotations`
+:ref:`sv anno`
 
-.. _plot2:
 
 Interactive Plot
 ^^^^^^^^^^^^^^^^
@@ -210,7 +215,7 @@ The linkage disequilibrium statistics  (r\ :sup:`2`/D') between each of these SN
 
    Screenshot of **show other phenotype** toggle button for the interactive plot in GWAS SVatalog.
 
-The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See :ref:`SNP Table` for column descriptions.
+The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See :ref:`table snp` for column descriptions.
 
 .. |mane_link| raw:: html
 
@@ -222,9 +227,8 @@ The representative transcript for each gene obtained from |mane_link| are shown 
 
    Screenshot of **interactive plot** after selecting a specific phenotype in GWAS SVatalog.
 
-.. _snptable2:
 
 SNP Table
 ^^^^^^^^^^
 
-:ref:`SNP Table`
+:ref:`table snp`
