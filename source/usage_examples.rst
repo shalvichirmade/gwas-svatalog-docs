@@ -69,7 +69,6 @@ Annotations generated for the selected SV are displayed here. :doc:`This documen
    Screenshot of the **SV annotation table** in GWAS SVatalog.
 
 
-
 Interactive Plot
 ^^^^^^^^^^^^^^^^
 
@@ -149,6 +148,7 @@ Additional columns in the download file:
 
 This method subsets the list of structural variants by the phenotype of interest. These SVs have linkage disequilibrium statistics with at least one GWAS-significant SNP for the selected phenotype.    
 
+
 Selecting by Phenotype
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -170,19 +170,19 @@ Selecting by Genomic Loci
 
 In addition to selecting a phenotype, the user can optionally subset the list of SVs further by choosing a genomic region or gene of interest (see `Selecting by Coordinates`_ and `Selecting by Gene`_).
 
-
+.. _selectingsv2:
 Selecting an SV
 ^^^^^^^^^^^^^^^^
 
 `Selecting an SV`_
 
-
+.. _svanno2:
 SV Annotations
 ^^^^^^^^^^^^^^^
 
 `SV Annotations`_
 
-
+.. _plot2:
 Interactive Plot
 ^^^^^^^^^^^^^^^^
 
@@ -219,7 +219,7 @@ The representative transcript for each gene obtained from |mane_link| are shown 
 
    Screenshot of **interactive plot** after selecting a specific phenotype in GWAS SVatalog.
 
-
+.. _snptable2:
 SNP Table
 ^^^^^^^^^^
 
