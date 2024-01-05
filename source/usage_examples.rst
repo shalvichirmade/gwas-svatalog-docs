@@ -76,11 +76,15 @@ Interactive Plot
 The visualization shows the selected SV and linkage disequilibrium statistics (r\ :sup:`2`/D') for SNPs within 1 Mb of its boundries. These SNPs are associated with genome-wide association studies studies as depicted in |gwas_link|.
 Each marker is a unique SNP where the hover label shows information on one entry in GWAS Catalog. When a SNP is clicked, a table below populates with additional information (see `SNP Table`_).    
 
-The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
+The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside ech gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See `SNP Table`_ for column descriptions.
 
 .. |gwas_link| raw:: html
 
    <a href="https://www.ebi.ac.uk/gwas/" target="_blank" style="color:#2ba089">GWAS Catalog</a>
+
+.. |mane_link| raw:: html
+
+   <a href="https://useast.ensembl.org/info/genome/genebuild/mane.html" target="_blank" style="color:#2ba089">MANEg</a>
 
 .. figure:: plot_example1.png
    :alt: screenshot of interactive plot with all phenotypes
@@ -130,3 +134,8 @@ Additional columns in the download file:
   * **P-Value_log10**: log10 of the statistic provided by GWAS Catalog
 
 
+
+2. Phenotype
+-------------
+
+This method subsets the list of structural variants by the phenotype of interest. 
