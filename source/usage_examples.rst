@@ -78,7 +78,7 @@ Annotations generated for the selected SV are displayed here. :doc:`This documen
 Interactive Plot
 ^^^^^^^^^^^^^^^^
 
-The visualization shows the selected SV and linkage disequilibrium statistics (r\ :sup:`2`/D') for SNPs within 1 Mb of its boundries. These SNPs are significant with genome-wide association studies studies as depicted in |gwas_link|.
+The visualization shows the selected SV and linkage disequilibrium statistics (D'/r\ :sup:`2`) for SNPs within 1 Mb of its boundries. These SNPs are significant with genome-wide association studies studies as depicted in |gwas_link|.
 Each marker is a unique SNP where the hover label shows information on one entry in GWAS Catalog. When a SNP is clicked, a table below populates with additional information (see :ref:`table snp`).    
 
 The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` on the y axis if required. 
@@ -87,7 +87,7 @@ The default LD statistic is D', the toggle can be used to visualize r\ :sup:`2` 
    :alt: screenshot of D' to r2 toggle for plot
    :align: center
 
-   Screenshot of **r**\ :sup:`2` **to D'** toggle button for the interactive plot in GWAS SVatalog.
+   Screenshot of **D' to r\ :sup:`2`** toggle button for the interactive plot in GWAS SVatalog.
 
 
 The representative transcript for each gene obtained from |mane_link| are shown in the plot. The direction of the arrow beside each gene name represents the direction of the transcript. The user can additionally download information of the SNPs shown in the plot as a .csv file when clicking the "Export SNP Data to CSV" button to the right of the visualziation. See :ref:`table snp` for column descriptions.
@@ -204,10 +204,10 @@ The visualization shows the selected SV and p-value of GWAS-associated SNPs for 
    :alt: screenshot of D' to r2 toggle for plot
    :align: center
 
-   Screenshot of **r\ :sup:`2` to D'** toggle button for the interactive plot in GWAS SVatalog.
+   Screenshot of **D' to r\ :sup:`2`** toggle button for the interactive plot in GWAS SVatalog.
 
 The user also has an option to visualize p-value for SNPs from other phenotypes within 100 kb of the current region.
-The linkage disequilibrium statistics  (r\ :sup:`2`/D') between each of these SNPs and the selected SV will be displayed in the hover label.
+The linkage disequilibrium statistics  (D'/r\ :sup:`2`) between each of these SNPs and the selected SV will be displayed in the hover label.
 
 .. figure:: pheno_toggle.png
    :alt: screenshot of show other pheno toggle for plot
