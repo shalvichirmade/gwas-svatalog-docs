@@ -1,8 +1,9 @@
 GWAS SVatalog Documentation
 =======================================
 
-GWAS SVatalog - hyperlink to website    
+GWAS SVatalog: a visualization tool to aid fine-mapping of GWAS loci with structural variations.     
+https://svatalog.research.sickkids.ca/
 
-Citation: and hyperlink to publication
+Citation: to be published
 
 The documentation was created using Read the Docs and Sphinx.
