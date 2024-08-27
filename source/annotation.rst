@@ -55,8 +55,8 @@ This document describes each column in the SV Annotation Table.
 
 **OMIM Pheno**: (array of) entrez gene ID, gene symbol, and disorder/disease name(s), with their respective inheritance modes coded as “i:”, found in OMIM. 
 
-**OMIM Inh**: list of all the inheritance modes for OMIM phenotypes: 
-            autosomal dominant (AD), autosomal recessive(AR), multifactorial (MF), Y-linked (YL), X-linked dominant (XD), X-linked recessive (XR), X-linked: (XL), digenic recessive (DR), mitochondrial (MT), somatic mutation (SMu), somatic mosaicism (SMo), inherited chromosomal imbalance (ICI) 
+**OMIM Inh**: list of all the inheritance modes for OMIM phenotypes. 
+            autosomal dominant (AD), autosomal recessive (AR), multifactorial (MF), Y-linked (YL), X-linked dominant (XD), X-linked recessive (XR), X-linked: (XL), digenic recessive (DR), mitochondrial (MT), somatic mutation (SMu), somatic mosaicism (SMo), inherited chromosomal imbalance (ICI) 
 
 **ClinGen Region**: Genomic disease region from ClinGen. 
 
