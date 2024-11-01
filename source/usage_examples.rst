@@ -48,7 +48,7 @@ When selecting a gene of interest, the SVs displayed are within 100kb of the sta
 Selecting an SV
 ^^^^^^^^^^^^^^^^
 
-The 35,855 structural variants in this table are subsetted by the filters applied. Each row is a unique SV with MAF ≥ 0.1.    
+The 35,732 structural variants in this table are subsetted by the filters applied. Each row is a unique SV with MAF ≥ 0.1.    
 
 Select a SV to analyze further.
 
