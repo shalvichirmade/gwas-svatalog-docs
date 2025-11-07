@@ -6,14 +6,18 @@ References
 
 1. **GWAS SVatalog**   
 
-    * *link to publication TBD*
+    * Chirmade, S., Wang, Z., Mastromatteo, S., Sanders, E., Thiruvahindrapuram, B., Nalpathamkalam, T., Pellecchia, G., et al. (2025). GWAS SVatalog: a visualization tool to aid fine-mapping of GWAS loci with structural variations. *Heredity.* |ref_link_svatalog|
+
+.. |ref_link_svatalog| raw:: html
+
+   <a href="https://www.nature.com/articles/s41437-025-00809-2" target="_blank" style="color:#2ba089">https://doi.org/10.1038/s41437-025-00809-2</a>
 
 
 2. **LocusFocus**    
 
-    * Panjwani N, Wang F, Mastromatteo S, Bao A, Wang C, et al. (2020) LocusFocus: Web-based colocalization for the annotation and functional follow-up of GWAS. PLOS Computational Biology 16(10): e1008336. |ref_link|
+    * Panjwani, N., Wang, F., Mastromatteo, S., Bao, A., Wang, C., He, G., Gong, J., et al. (2020). LocusFocus: Web-based colocalization for the annotation and functional follow-up of GWAS. *PLoS Computational Biology*, 16(10), e1008336. |ref_link_lf|
 
-.. |ref_link| raw:: html
+.. |ref_link_lf| raw:: html
 
    <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008336" target="_blank" style="color:#2ba089">https://doi.org/10.1371/journal.pcbi.1008336</a>
 

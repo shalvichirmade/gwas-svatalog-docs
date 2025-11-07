@@ -54,8 +54,11 @@ GWAS SVatalog
 
 .. admonition:: Disclaimer
 
-   Database constructed from predominantly European population of 101 individauls with Cystic Fibrosis (CF). The alleles affected by CF aside, the remainder of the genome is comparable to a healthy population of European descent (*link to publication TBD*). Genomic location is referenced against GRCh38.
+   Database constructed from predominantly European population of 101 individauls with Cystic Fibrosis (CF). The alleles affected by CF aside, the remainder of the genome is comparable to a healthy population of European descent |pub_link|. Genomic location is referenced against GRCh38.
 
+.. |pub_link| raw:: html
+
+   <a href="https://www.nature.com/articles/s41437-025-00809-2" target="_blank" style="color:#2ba089">(Chirmade *et. al.*, 2025)</a>
 
 
 .. toctree::
