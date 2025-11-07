@@ -58,7 +58,7 @@ GWAS SVatalog
 
 .. |pub_link| raw:: html
 
-   <a href="https://www.nature.com/articles/s41437-025-00809-2" target="_blank" style="color:#2ba089">(Chirmade *et. al.*, 2025)</a>
+   <a href="https://www.nature.com/articles/s41437-025-00809-2" target="_blank" style="color:#2ba089">(Chirmade <em>et al.</em>, 2025)</a>
 
 
 .. toctree::
