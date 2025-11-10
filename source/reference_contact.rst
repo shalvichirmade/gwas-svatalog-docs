@@ -25,7 +25,7 @@ References
 Contact
 -------
 
-1. **GWAS Svatalog**
+1. **GWAS SVatalog**
 
     * Shalvi Chirmade |email_link|
 
