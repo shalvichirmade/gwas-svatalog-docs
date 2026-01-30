@@ -3,17 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: tcaglogo.png
-   :target: index.html
-   :scale: 50 %
-   :align: right
-   :alt: tcaglogo
-
-.. image:: SKlogo.png
-   :target: index.html
-   :scale: 75 %
-   :align: right
-   :alt: sklogo
 
 .. figure:: gwas-svatalog-logo.svg
    :target: index.html
